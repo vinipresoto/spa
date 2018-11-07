@@ -5,26 +5,7 @@ import TaskList from '../Components/TaskList'
 
 export default class TodoList extends Component {
     state = {
-        tasks: [
-            {
-                name: 'bla',
-                description: 'sadadasdsada',
-                status: 'TODO',
-                id: 1,
-            },
-            {
-                name: 'bla',
-                description: 'sadadasdsada',
-                status: 'DONE',
-                id: 2,
-            },
-            {
-                name: 'bla',
-                description: 'sadadasdsada',
-                status: 'IN PROGRESS',
-                id: 3,
-            }
-        ]
+        tasks: [],
     }
 
     insertTask = (task) => {
